@@ -31,9 +31,9 @@ The Restfull API's which are beign called were tested using postman. And these a
 - DELETE method: `http://localhost:8080/tasks/{id}` (To delete a task)
 ![image](https://user-images.githubusercontent.com/64153988/235244209-f45eb0d8-e1ba-4e30-8761-92e69c0a03a3.png)
 
-## Kaiburr task 3: Kubernetes.
+# Kaiburr task 3: Kubernetes.
 
-# Task: Kubernetes.
+## Task: Kubernetes.
 
 Use the application that you created in task #1 or task #2. Create dockerfiles and build docker images. Create kubernetes yaml manifests for the application (at least a deployment and a service). It’s ok to expose the application with a LoadBalancer or NodePort service or with an ingress. Spin up a single-node local Kubernetes cluster (Docker Desktop, Kind or Minikube) or use a managed cluster like EKS, AKS, GKE etc. Deploy MongoDB to the cluster (it’s ok to use a community helm chart for this, any other approach is fine as well). Then deploy the application to the cluster by applying your manifests. The following requirements should be fulfilled:
 - you can bring your application up by applying your yaml manifests
