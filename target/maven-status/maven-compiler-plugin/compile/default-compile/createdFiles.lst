@@ -1,0 +1,5 @@
+com\kaiburr\service\TaskService.class
+com\kaiburr\SpringbbotMongoAtlasApplication.class
+com\kaiburr\repository\TaskRepository.class
+com\kaiburr\model\Task.class
+com\kaiburr\controller\TaskController.class
