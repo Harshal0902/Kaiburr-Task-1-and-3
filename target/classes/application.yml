@@ -1,6 +1,0 @@
-spring:
-  data:
-    mongodb:
-    # Enter your mongodb url here
-      uri : 
-      database : Task
